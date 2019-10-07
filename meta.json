@@ -9,7 +9,7 @@
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "juniper": {
-        "repo": "ines/course-starter-r",
+        "repo": "xiangao/testcourse",
         "branch": "binder",
         "lang": "r",
         "kernelType": "ir",
@@ -18,8 +18,8 @@
     "showProfileImage": true,
     "footerLinks": [
         { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-r" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Source", "url": "https://github.com/xiangao/testcourse" },
+        { "text": "Built with ♥", "url": "https://github.com/xiangao/testcourse" }
     ],
     "theme": "#de7878"
 }
